@@ -1,14 +1,15 @@
-import React from "react"
+import React from "react";
 
-import stitcher from "../images/stitcher.png"
-import overcast from "../images/overcast.png"
-import pocket from "../images/pocketcasts.png"
+import stitcher from "../images/stitcher.png";
+import overcast from "../images/overcast.png";
+import pocket from "../images/pocketcasts.png";
+import youtube from "../images/youtube.svg";
 
 const WhereToListenSmall = () => (
   <>
     <ul className="flex justify-center mt-8">
       <li className="w-8 ml-6 mr-6">
-        <a href="https://podcasts.apple.com/us/podcast/ask-your-dog-guru/id1294114543?mt=2&app=podcast">
+        <a href="https://podcasts.apple.com/gb/podcast/the-in-the-country-podcast/id1496045301?mt=2&app=podcast">
           <svg viewBox="0 0 300 300">
             <defs>
               <linearGradient
@@ -37,12 +38,12 @@ const WhereToListenSmall = () => (
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://www.stitcher.com/podcast/dog-guru">
-          <img src={stitcher} alt="spotify" />
+        <a href="https://www.youtube.com/channel/UCOaNiYDORiazwFtD5KWZO2g/videos">
+          <img src={youtube} alt="spotify" />
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9kb2dndXJ1LnBvZGJlYW4uY29tL2ZlZWQueG1s&ved=0CAAQ4aUDahcKEwjY66z30rXnAhUAAAAAHQAAAAAQAQ&hl=en-GB">
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9tZWRpYS5yc3MuY29tL2ludGhlY291bnRyeXBvZGNhc3QvZmVlZC54bWw%3D">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <g fill="none">
               <path
@@ -78,7 +79,7 @@ const WhereToListenSmall = () => (
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://open.spotify.com/show/1ib4MkfMSvLYgD5FNT9Snd">
+        <a href="https://open.spotify.com/show/51tztOIlNboyLXVgUGp35e">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
@@ -94,12 +95,12 @@ const WhereToListenSmall = () => (
     </ul>
     <ul className="flex justify-center mt-6">
       <li className="w-8 ml-6 mr-6">
-        <a href="https://overcast.fm/itunes1294114543/ask-your-dog-guru">
+        <a href="https://overcast.fm/itunes1496045301">
           <img src={overcast} alt="apple" />
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://castbox.fm/channel/Ask-Your-Dog-Guru-id2577025?country=us">
+        <a href="https://castbox.fm/channel/The-In-The-Country-Podcast-id2589405?country=us">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
@@ -134,7 +135,7 @@ const WhereToListenSmall = () => (
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://castro.fm/itunes/1294114543">
+        <a href="https://castro.fm/podcast/6858fed8-8f58-4fe9-aef3-76be33a61d26">
           <svg viewBox="0 0 34 34" version="1.1">
             <defs>
               <linearGradient
@@ -187,12 +188,12 @@ const WhereToListenSmall = () => (
         </a>
       </li>
       <li className="w-8 ml-6 mr-6">
-        <a href="https://pca.st/private/a5969370-027f-0138-9f4b-0acc26574db2">
+        <a href="http://pca.st/itunes/1496045301">
           <img src={pocket} alt="spotify" />
         </a>
       </li>
     </ul>
   </>
-)
+);
 
-export default WhereToListenSmall
+export default WhereToListenSmall;
