@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Ask your dog guru`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Ask your dog guru`
+    title: `In The Country`,
+    description: `Introducing the very first In The Country podcast. In this debut episode, meet your host, Hollie-Ella and find out about how and why she decided to take the bold leap and launch In The Country Magazine at just aged 21!`,
+    author: `In The Country`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

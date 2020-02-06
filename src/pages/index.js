@@ -27,11 +27,7 @@ const IndexPage = ({ data }) => {
   // console.log("POST: ", posts)
   return (
     <Layout>
-      <SEO
-        title="Ask your dog guru"
-        description={siteDescription}
-        img="https://pbcdn1.podbean.com/imglogo/image-logo/2144795/26850174_531238480575311_1377019303222901017_o_1_.png"
-      />
+      <SEO title="In The Country" description={siteDescription} img={logo} />
 
       <div>
         <div className={`${albumStyle.slope}`} />
